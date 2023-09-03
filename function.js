@@ -36,7 +36,7 @@ function printMessage(){
     console.log(message);
     function printAnother(){
         let childmessage='child'
-        console.log(message);//가능 부모 변수는 가능
+        console.log(message);//가능 --부모 변수는 가능
 
     }
     //console.log(childmessage);//error 자식변수를 부모함수에서 사용 불가능

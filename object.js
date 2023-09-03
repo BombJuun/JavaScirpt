@@ -1,4 +1,4 @@
-//javascript의 object는=python dictionary
+//javascript의 object는python dictionary
 
 
 const obj1={};//object literal
@@ -75,6 +75,6 @@ for(value in array){
 const user={name:'ellie',age:'20'};
 const user2=user;
 
-for(value of user2){
-    console.log(value);
-}
+// for(value of user2){
+//     console.log(value);
+// }
